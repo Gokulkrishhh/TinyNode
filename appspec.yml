@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /tinythings/TinyNode
+hooks:
+  BeforeInstall:
+    - location: /deploy_tiny.sh
+      timeout: 300
+      runas: root
