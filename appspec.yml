@@ -5,6 +5,6 @@ files:
     destination: /tinythings/TinyNode
 hooks:
   BeforeInstall:
-    - location: ./deploy_tiny.sh
+    - location: deploy_tiny.sh
       timeout: 300
       runas: root
